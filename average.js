@@ -1,7 +1,6 @@
 
 function average(numbers) {
-    if(number=Nan);
-      number=0
+   if (isNaN(numbers)) numbers = 0;
   return numbers.reduce((p, c)=> p + c, 0) / numbers.length;
 }
 
